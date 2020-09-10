@@ -1,5 +1,5 @@
 {
-  "name": "dagre-d3",
+  "name": "@doc.ai/dagre-d3",
   "version": "0.6.5-pre",
   "description": "A D3-based renderer for Dagre",
   "author": "Chris Pettitt <chris@samsarin.com>",
@@ -44,7 +44,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dagrejs/dagre-d3.git"
+    "url": "git+https://github.com/dagrejs/dagre-d3.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dagrejs/dagre-d3/issues"
+  },
+  "homepage": "https://github.com/dagrejs/dagre-d3#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
